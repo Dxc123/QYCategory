@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                  QYCategory是项目常用创建UI控件的链式封装的分类.
                    DESC
 
   spec.homepage     = "https://github.com/Dxc123/QYCategory"
@@ -63,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/Dxc123/QYCategory.git", :tag => "#{spec.version}" }
-
+ 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,9 +92,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "QYCategory", "QYCategory/**/*.{h,m}"
-  spec.exclude_files = "QYCategory/Exclude"
+  # spec.exclude_files = "QYCategory/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "QYCategory/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
