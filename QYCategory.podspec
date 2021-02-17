@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QYCategory"
-  spec.version      = "1.0.0"
+  spec.version      = "v1.0.0"
   spec.summary      = "QYCategory是常用创建UI控件的链式封装的分类."
 
   # This description is used to generate tags and improve search results.
